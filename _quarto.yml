@@ -6,17 +6,21 @@ execute:
   freeze: auto
 
 website:
-  title: "blog"
+  title: "Welcome to my blog!"
   navbar:
     right:
       - about.qmd
+      - icon: linkedin
+        href: https://www.linkedin.com/in/#/
       - icon: github
-        href: https://github.com/
+        href: https://github.com/DennisxB
+      - icon: gear-fill
+        href: https://linktr.ee/#
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitter.com/#
 format:
   html:
-    theme: cosmo
+    theme: lux
     css: styles.css
 
 editor: visual
